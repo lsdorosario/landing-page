@@ -30,3 +30,40 @@ header {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 150px;
+    gap: 75px;
+}
+
+.hero-maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 14px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+    margin-bottom: 14px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-container img {
+    width: 450px;
+    height: auto;
+}
