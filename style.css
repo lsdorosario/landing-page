@@ -135,3 +135,34 @@ header {
     color: #1F2937;
     align-self: flex-end;
 }
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 75px 200px;
+    padding: 55px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.action-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #F9FAF8;
+}
+
+.action-subtext {
+    color: #F9FAF8;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 32px;
+}
